@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Headers {
+    background-color: #244270;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    min-width: 900px;
+    max-width: 1300px;
+}
+.NavBarBox1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.NavBarh1t1 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 64px;
+    font-weight: 1000;
+    font-size: 64px;
+    margin: 0px;
+}
+.NavBarh1t2 {
+    color: #ff8000;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 64px;
+    margin: 0px;
+}
+.NavBarBox2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.NavBarh3 {
+    padding: 0px;
+    margin: 0px 25px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    cursor: pointer;
+}
+.NavBarh3:hover {
+    color: #ff8000;
+}
+
+.Landing {
+    width: 75%;
+    min-width: 900px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 18vh;
+}
+.LandingBox01 {
+    flex: 1;
+    padding-bottom: 10%;
+}
+.Landingh1t1 {
+    color: #FFF;
+    font-size: 64px;
+}
+.wrapper {
+    display: inline-flex;
+    margin: 80px 0px;
+}
+.staticText {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dynamicText {
+    margin-left: 7px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.dynamicText li {
+    list-style: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+    
+}
+@keyframes slide {
+    100%{
+        top: -120px;
+    }
+}
+.dynamicText li span {
+    position: relative;
+}
+.dynamicText li span::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #244270;
+    border-left: 2px solid #FFF;
+    animation: typing 1.5s steps(15) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+.Landingbtnt1 {
+    color: #FFF;
+    font-size: 24px;
+    margin: 0px;
+    background-color: #ff8000;
+    padding: 20px 10px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Landingbtnt1:hover {
+    background-color: #cc6600;
+}
+.LandingBox02 {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+.LandingImage01 {
+    width: 100%;
+}

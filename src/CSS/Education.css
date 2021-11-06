@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.Education {
+    padding: 13vh 0px;
+    background-color: #FF9041;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.EducationInner {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.EducationRow {
+    flex: 1;
+    text-align: left;
+    background-color: #FFF;
+    margin: 3px 3px;
+    padding: 50px;
+    border-radius: 20px;
+}

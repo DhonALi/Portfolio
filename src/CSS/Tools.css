@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Tools {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 23.5vh 0px;
+}
+
+.Tools-Inner {
+    width: 75%;
+    text-align: center;
+    min-width: 900px;
+    max-width: 1300px;
+    color: #000;
+}
+
+.toolsHeading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 64px;
+}
+
+.toolsParag {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    color: #7C7C7C;
+    font-size: 20px;
+}
+
+.ToolsImage01 {
+    height: 75px;
+}
+.ImageTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10vh 0px;
+}
+.ToolImageContainer1 {
+    background-color: #535353;
+    margin: 0px 10px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    animation: jump1 1.5s infinite;
+}
+@keyframes jump1 {
+    75% {
+        transform: translateY(45px);
+    }
+}
+.ToolImageContainer2 {
+    background-color: #535353;
+    margin: 0px 10px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    animation: jump2 1.5s infinite;
+}
+@keyframes jump2 {
+    50% {
+        transform: translateY(45px);
+    }
+}
