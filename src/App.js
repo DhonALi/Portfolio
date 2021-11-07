@@ -147,7 +147,7 @@ function App() {
             </div>
             <div className='EducationInner'>
                 <div className='EducationRow'>
-                    <h2 style={{color: '#2E88F1'}}>Bachelors(HON's) Computer science</h2>
+                    <h2 style={{color: '#2E88F1'}}>Bachelors(HON's) Computer science (Year 01)</h2>
                     <div style={{display: 'flex', flexDirection: 'row'}}>
                         <div style={{flex: 1}}>
                             <h3>OO System Dev</h3>
