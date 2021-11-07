@@ -120,7 +120,7 @@ function App() {
                     </div>
                 </div>
                 <div className='EducationRow'>
-                    <h2 style={{color: '#2E88F1'}}>GCE O' Level</h2>
+                    <h2 style={{color: '#2E88F1'}}>Certificate Level 04</h2>
                     <div style={{display: 'flex', flexDirection: 'row'}}>
                         <div style={{flex: 1}}>
                             <h3>Computer Concepts</h3>
